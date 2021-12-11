@@ -58,7 +58,7 @@ public class CalculadoraSalario {
         }
 
 
-        valeAlimentação = (valeAlimentação * VT) /100;
+        valeAlimentação = (valeAlimentação * VR) /100;
 
         String validacaoVT = JOptionPane.showInputDialog("Utiliza Vale-Transporte? Digite S se utiliza" +
                 " e N se não utiliza");
